@@ -1,0 +1,19 @@
+version: '3'  # version of compose format 
+
+services:
+  model-development:
+    build: ./model-development
+    volumes:
+      - ./model-development:/app # mount point
+    ports:
+      - 8080:8080  # host:container
+
+
+  dash-app:
+    build: ./dash-app  # path is relative to docker-compose.yml localtion
+    volumes:
+      - ./dash-app:/app # mount point
+    ports:
+      - 8050:8050  # host:container
+    depends_on:
+      - model-development

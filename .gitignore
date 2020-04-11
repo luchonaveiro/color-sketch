@@ -1,0 +1,15 @@
+model-developmenet/tf_2.x
+__pycache__
+*/__pycache__
+
+.DS_Store
+*/.DS_Store
+
+*.ipynb_checkpoints
+model-development/01_Create_Dataset.ipynb
+model-development/02_Predict_Single_Image.ipynb
+model-development/Copia de 01_Create_Dataset.ipynb
+model-development/models
+model-development/images
+model-development/tf_2.x
+
