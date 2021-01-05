@@ -1,6 +1,6 @@
 # Painting Black and White Sketches with a U-Net algorithm
 
-Develop and train a deep learning with this [Kaggle](https://www.kaggle.com/wuhecong/danbooru-sketch-pair-128x) dataset. You can find a more detail explanation on this [Medium]() post.
+Develop and train a deep learning with this [Kaggle](https://www.kaggle.com/wuhecong/danbooru-sketch-pair-128x) dataset. You can find a more detailed explanation on this [Medium](https://link.medium.com/XkPMqLlMMcb) post.
 
 ### Requirements:
 - tensorflow 2.0
